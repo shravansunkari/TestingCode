@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-ams-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-ams-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-ams-kstorm"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-ams-service"/>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-bizevent-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-bizevent-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-bizevent-kstorm"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-ams"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-cache"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-contact"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-dblogger"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-dsp-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-dsp-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-email"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-err"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-exms"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-ext-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-ext-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-ext-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-init-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-init-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-init-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-jexl-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-jexl-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-jexl-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-logging-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-logging-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-logging-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-ms"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-mscommon"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-sms"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-common-utils"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-config-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-config-conf"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-config-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-config-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-dms-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-dms-commchannel-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-dms-commchannel-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-dms-commchannel-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-dms-commchannel-xsd"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-dms-commdevice-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-dms-commdevice-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-dms-commdevice-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-dms-commdevice-xsd"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-dms-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-dms-rawdata-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-dms-rawdata-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-dms-sensor-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-dms-sensor-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-dms-sensor-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-dms-sensor-xsd"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-dms-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-email-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-email-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-email-kstorm"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-email-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-eventmapper-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-eventmapper-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-eventmapper-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-eventmapper-xsd"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-eventmd-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-eventmd-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-eventmd-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-exms-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-exms-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-exms-kstorm"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-exms-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-kafka-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-kafka-notifier"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-kstorm-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-kstorm-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-kstorm-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-kstorm-topology"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-largeobject-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-largeobject-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-largeobject-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-location-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-location-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-location-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-ms-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-ms-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-ms-kstorm"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-ms-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-msaudit-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-msaudit-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-msaudit-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-offlineprocess-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-offlineprocess-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-offlineprocess-kafka"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-offlineprocess-processor"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-offlineprocess-services"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-offlineprocess-utils"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-rawdata-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-rawdata-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-rawdata-kstorm"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-rawdata-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-rawdata-xsd"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-scrapers-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-scrapers-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-scrapers-kafka"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-scrapers-processor"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-scrapers-services"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-scrapers-utils"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-sensor-system-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-sensor-system-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-sensor-system-kstorm"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-sensor-system-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-sms-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-sms-gateway-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-sms-gateway-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-sms-gateway-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-sms-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-sms-kstorm"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-sms-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-spatial-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-spatial-ext-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-spatial-ext-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-spatial-ext-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-spatial-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-spatial-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-uploadutils-spatial-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-uploadutils-spatial-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-uploadutils-spatial-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-user-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-user-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/platform-user-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-aggr-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-aggr-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-aggr-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-canal-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-canal-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-canal-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-cleanup-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-cleanup-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-cleanup-kstorm"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-commandcenter-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-commandcenter-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-commandcenter-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-cropstress-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-cropstress-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-cropstress-kstorm"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-cropstress-kstorm-event"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-cropstress-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-fm-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-fm-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-fm-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-kpis-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-kpis-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-kpis-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-krishna-flow-mgmt-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-krishna-flow-mgmt-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-krishna-flow-mgmt-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-stress-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-stress-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-stress-kstorm"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-stress-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-consumption-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-consumption-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-consumption-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-et-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-et-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-et-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-gw-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-gw-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-gw-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-inflow-to-state-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-inflow-to-state-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-inflow-to-state-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-mitanks-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-mitanks-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-mitanks-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-reservoir-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-reservoir-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-reservoir-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-rf-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-rf-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-rf-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-sm-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-sm-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-sm-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-sts-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-sts-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-dss-wbs-sts-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-ecmwf-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-ecmwf-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-ecmwf-kstorm-event"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-ecmwf-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-gridmapping-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-gridmapping-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-gridmapping-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-groundwater-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-groundwater-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-groundwater-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-kstorm"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-rainfall-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-rainfall-forecast-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-rainfall-forecast-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-rainfall-forecast-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-rainfall-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-rainfall-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-reservoir-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-reservoir-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-reservoir-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-rscanalalert-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-rscanalalert-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-rscanalalert-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-rstats-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-rstats-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-rstats-kstorm"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-rstats-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-soilmoisture-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-soilmoisture-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-soilmoisture-kstorm"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-soilmoisture-kstorm-event"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-soilmoisture-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-soilmoisture-stress-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-soilmoisture-stress-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-soilmoisture-stress-service"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-waterresourceapp-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-waterresourceapp-impl"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/proj-iwm-waterresourceapp-service"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
